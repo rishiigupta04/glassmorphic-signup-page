@@ -24,7 +24,7 @@ body {
 }
 
 .inner-box {
-    width: 22rem;
+    max-width: 20rem;
     margin: 0 auto;
     position: relative;
     top: 50%;
