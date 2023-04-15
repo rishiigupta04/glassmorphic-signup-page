@@ -17,7 +17,7 @@ body {
 
 .outer-box {
     width: 100vw;
-    height: 105vh;
+    height: 110vh;
     background:linear-gradient(to top left,rgba(76, 49, 255, 0.808),rgba(239, 66, 255, 0.452));
     overflow: hidden;
 
@@ -112,14 +112,17 @@ font-weight: bold;
     border-radius: 100px;
     background: linear-gradient(to top right, #2f0ed48b, rgb(255, 255, 255));
     position: absolute;
+    overflow: hidden;
 }
 
 .c1 {
    top: 49px;
    left: 212px;
+   overflow: hidden;
 }
 
 .c2 {
     bottom: 25px;
     right: 212px;
+    overflow: hidden;
  }
