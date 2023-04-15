@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 105vh;
+    background:linear-gradient(to top left,rgba(76, 49, 255, 0.808),rgba(239, 66, 255, 0.452));
+    overflow: hidden;
+
+}
+
+.inner-box {
+    width: 22rem;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 13px 40px;
+    /* background: white; */
+    background: linear-gradient(to top left, rgba(255, 255, 255, 0.452), #ffffff33);
+    backdrop-filter: blur(8px);
+    box-shadow: 2px 4px 5px rgba(50, 43, 95, 0.717);
+    border-radius: 8px;
+    border: none;
+    z-index: 2;
+}
+
+.head {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.head h1 {
+    font-size: 2.5rem;
+    color: rgb(46, 46, 46);
+}
+
+.head p {
+    font-size: 1rem;
+    color: rgba(77, 77, 77, 0.895);
+    margin-top: 7px;
+}
+
+.body p {
+    margin: 20px 0;
+}
+
+.body label {
+display: block;
+font-weight: bold;
+}
+
+.body p input {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(103, 80, 253, 0.808) ;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.body p input[type="submit"] {
+    border-radius: 7px;
+    background: rgba(76, 49, 255, 0.808);
+    color: white;
+    padding: 8px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.body p input[type="submit"]:hover {
+    background: rgba(238, 55, 255, 0.797);
+    transition: 0.2s;
+}
+
+.footer p {
+    color: rgba(56, 56, 56, 0.87);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: rgba(71, 35, 252, 0.797);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.footer a:hover {
+    color: rgba(238, 55, 255, 0.797);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #2f0ed48b, rgb(255, 255, 255));
+    position: absolute;
+}
+
+.c1 {
+   top: 100px;
+   left: 130px;
+}
+
+.c2 {
+    bottom: 100px;
+    right: 130px;
+ }
