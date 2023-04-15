@@ -28,7 +28,7 @@ body {
     margin: 0 auto;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-60%);
     padding: 13px 40px;
     /* background: white; */
     background: linear-gradient(to top left, rgba(255, 255, 255, 0.452), #ffffff33);
